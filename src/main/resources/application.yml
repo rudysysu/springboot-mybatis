@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    password: root
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/mybatis?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  type-aliases-package: com.github.rudysysu.springboot.mybatis.domain
